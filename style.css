@@ -37,11 +37,10 @@ body{
      margin-right: 5%;
  }
 
- nav,.banner{
+nav,.banner{
      display: flex;
      justify-content: space-between;
-     padding: 20px;
- 
+     padding: 20px; 
      align-items:center;
 
  }
@@ -74,29 +73,70 @@ body{
      font-weight: 800;
  }
 
- /* header banner */
- .banner{
-
- }
 
                                 /* sponser section */
 .sponsers{
-    /* border: 2px solid red; */
+    
     display: grid;
     grid-template-columns: repeat(6,1fr);
     height: 10vw;
     align-items: center;
     margin: 5% 3% 5% 3%;
+    padding: 5%;
    
 
 
 }
+
 .sponser {
-    /* border: 1px solid green; */
+    
     justify-content: center;
     padding: 13%;
 }
 .sponser img{
     width: 70%;
     margin-bottom: 0;
+}
+
+                                        /* products css */
+
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 59px;
+    margin-left: 8%;
+  
+  
+}
+.product_header{
+    text-align: center;
+    margin:6% 0% 10% 0%;
+}
+.product{
+    box-shadow: 2px 2px 6px black;
+    padding: 8px;
+    border-radius: 7px;
+    width: 70%;
+    height: 100%;
+   
+  
+}
+.product img{
+    width: 100%;
+}
+.content{
+    
+    /* box-shadow: 1px 1px 5px black; */
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 0%;
+}
+.content h1,h2,.fas,p{
+    font-size: 12px;
+}
+.rating i{
+    color: green;
+    margin-left: 0%;
+
 }
