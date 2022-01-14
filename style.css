@@ -1,0 +1,102 @@
+                                    /* resorse  */
+/*------
+   font
+ -------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500&display=swap');
+
+                                /* utilities */
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  
+}
+
+.btn{
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 40px;
+    background-color: crimson;
+    text-align: center;
+    transition: background-color .7s;
+}
+.btn:hover{
+    background-color: yellow;
+}
+
+                                /* header style */
+
+/*-------
+ nav css
+ -------*/
+ header{
+     background-color: white;
+     margin-left: 5% ;
+     margin-right: 5%;
+ }
+
+ nav,.banner{
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+ 
+     align-items:center;
+
+ }
+ .banner{
+     margin-top: 6%;
+ }
+ .banner div{
+     width: 50%;
+ }
+ .banner_right{
+     padding-left: 20%;
+ }
+ .logo_text{
+     font-size: 24px;
+ }
+ .nav_button ul{
+     display: flex;
+ }
+ .nav_button>ul{
+     list-style-type: none;
+ }
+ .nav_button>ul a{
+     text-decoration: none;
+     padding-left: 20px;
+     font-size: l7px;
+ }
+ .fas{
+     font-size: 24px;
+    margin-left: 20px;
+     font-weight: 800;
+ }
+
+ /* header banner */
+ .banner{
+
+ }
+
+                                /* sponser section */
+.sponsers{
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    height: 10vw;
+    align-items: center;
+    margin: 5% 3% 5% 3%;
+   
+
+
+}
+.sponser {
+    /* border: 1px solid green; */
+    justify-content: center;
+    padding: 13%;
+}
+.sponser img{
+    width: 70%;
+    margin-bottom: 0;
+}
