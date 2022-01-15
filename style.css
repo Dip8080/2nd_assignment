@@ -40,13 +40,10 @@ section{
 nav ul li a{
     color: rgba(13, 116, 30, 0.89);
     padding: 4px;
-    text-align: center;
-    justify-content: center;
-    
 }
-nav ul li a:hover{
-    border-bottom: 2px solid green;
-}
+
+
+
 
                                 /* header style */
 
