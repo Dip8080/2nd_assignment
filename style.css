@@ -72,12 +72,14 @@ nav,.banner{
  /*---------------------
   bannner left animation 
  -----------------------*/
+
+ /*  
  @keyframes fly {
 
     0%{
         left: 0px;
         top: 0px;
-        /* transform: rotate(90deg); */
+       
     }
 
     33%{
@@ -96,10 +98,10 @@ nav,.banner{
     100%{
         top:0px;
         left: 0;
-        /* transform: rotate(-180deg); */
+        
     }
      
- }
+ }*/
 
  .banner_right img{
      width: 50%;
@@ -221,7 +223,7 @@ section .feedback_header{
     margin-bottom: 5%;
 
 }
-.feedback_header span{ 
+.feedback_header { 
     font-size: 26px;
     align-items: center;
     padding: 10px;
@@ -237,9 +239,6 @@ section .feedback_header{
 width: 80px;
 height:70px;
 margin-left: 18%;
-}
-.clint h3,p{
-    font-size: ;
 }
 
                                                 /* footer csss */
@@ -268,10 +267,7 @@ footer h1,p{
 ----mobile-- */
 
 @media only screen and (max-width:687px) {
-    section{
-        border: 2px solid red;
-
-    }
+    
     main{
         display: flex;
         flex-direction: column;
@@ -323,13 +319,20 @@ footer h1,p{
     section .btn2{
         margin-top: 5%;
     }
-.feedback_header{
-    text-align: center;
-    padding-left: 50%;
-}
+ .feedback_header{
+     width: 100%;
+     margin-left: 14%;
+    
+} 
     .feedback{
+        
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
         justify-content: space-around;
+        margin-left: 20px;
+    }
+    .clint{
+        margin-left: 10%;
     }
 }
